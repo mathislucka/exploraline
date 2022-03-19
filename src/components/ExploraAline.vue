@@ -47,9 +47,9 @@
         </ul>
     </nav>
     <div class="flex">
-        <div v-for="prop in displayProps" :key="prop" class="basis-0 grow ml-auto mr-auto text-gray-600 font-semibold px-2 mb-1 text-lg max-w-6xl">{{ prop }}</div>
+        <div v-for="prop in displayProps" :key="prop" class="basis-0 grow ml-auto mr-auto text-gray-600 font-semibold px-4 mb-1 text-lg max-w-6xl">{{ prop }}</div>
     </div>
-    <main class="grow overflow-y-auto" v-if="displayProps.length > 0">
+    <main class="grow overflow-y-auto px-2" v-if="displayProps.length > 0">
         <line-display
             class="mb-4"
             v-for="(item, idx) in displayItems"
