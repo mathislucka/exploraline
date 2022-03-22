@@ -18,6 +18,7 @@ git clone https://github.com/mathislucka/exploraline.git
 cd exploraline
 
 # if you have npm installed
+npm  install
 npm run dev
 # navigate to localhost:3000
 
